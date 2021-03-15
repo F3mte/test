@@ -3,11 +3,11 @@ import numpy as np
 
 fig, ax = plt.subplots()
 
-#############################################
+##############################################
 # TasksPos[][x] zawiera zadania po kolei
 # TasksPOs[][][0 lub 1] na pozycji 0 jest
 # czas startu, na pozycji 1 jest czas trwania
-#############################################
+##############################################
 TasksPos = [
     [[0.5, 1], [2, 1], [4, 6]],
     [[0, 1], [1, 0.5], [4, 2]]
